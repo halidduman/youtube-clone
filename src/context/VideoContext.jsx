@@ -18,8 +18,8 @@ export const VideoProvider = ({ children }) => {
       .finally(() => setİsLoading(false));
   }, []);
 
-  console.log(videos);
-  console.log(error);
+  // console.log(videos);
+  // console.log(error);
 
   return (
     <VideoContext.Provider value={{ videos, error, isLoading }}>
