@@ -2,10 +2,13 @@ import millify from "millify";
 import { useState } from "react";
 
 const VideoCard = ({ video }) => {
-  console.log(video);
-  const [isHover, serIsHover] = useState(true);
+  const [isHover, setIsHover] = useState(false);
   return (
-    <div className="cursor-pointer">
+    <div
+      className="cursor-pointer"
+      onMouseEnter={() => setIsHover(true)}
+      onMouseLeave={() => setIsHover(false)}
+    >
       {/* Resim alanı */}
       <div>
         <img
