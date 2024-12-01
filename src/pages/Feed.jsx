@@ -21,7 +21,10 @@ const Feed = () => {
           <ErrorDisplay />
         ) : (
           videos?.map(
-            (item) => item.type === "video" && <VideoCard key={item.videoId} />
+            (item) =>
+              item.type === "video" && (
+                <VideoCard video={item} key={item.videoId} />
+              )
           )
         )}
       </div>
