@@ -13,7 +13,11 @@ const Sidebar = () => {
         <Link key={i} to={"/"} onClick={() => setselectedCategory(item)}>
           {" "}
           {/* "key" prop eklemeyi unutmayın */}
-          <div className="flex gap-2 py-2 items-center md:px-3 md:text-lg hover:bg-[#212121] cursor-pointer rounded-md">
+          <div
+            className={`${
+              selectedCategory.name === item.name && "bg-[#212121]"
+            } flex gap-2 py-2 items-center md:px-3 md:text-lg hover:bg-[#212121] cursor-pointer rounded-md`}
+          >
             <span className="max-md:text-2xl">{item.icon}</span>
             <span className="max-md:hidden">{item.name}</span>
           </div>
