@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Feed from "./pages/Feed";
 import Results from "./pages/Results";
 import Header from "./components/Header";
+import VideoDetail from "./pages/videoDetail/index";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Feed />} />
         <Route path="/results" element={<Results />} />
+        <Route path="/watch" element={<VideoDetail />} />
       </Routes>
     </BrowserRouter>
   );

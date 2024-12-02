@@ -1,13 +1,16 @@
 import millify from "millify";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const VideoCard = ({ video }) => {
   const [isHover, setIsHover] = useState(false);
+  const navigate = useNavigate();
   return (
     <div
       className="cursor-pointer"
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
+      onClick={() => navigate(`/watch?v=${video.videoId}`)}
     >
       {/* Resim alanı */}
       <div>
