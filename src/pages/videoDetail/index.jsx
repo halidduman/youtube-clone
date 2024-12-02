@@ -10,16 +10,11 @@ import VideoCard from "../../components/VideoCard";
 const VideoDetail = () => {
   const [video, setVideo] = useState(null);
   const [comments, setComments] = useState(null);
-  console.log(video);
-  //* 1.adım: Arama parametresine erişim için kurulum
   const [searchParams] = useSearchParams();
-  //* 2.adım: URL'den "v" isimli parametreye eriş
   const id = searchParams.get("v");
 
   useEffect(() => {
-    //* 3.adım: idsini bildiğimiz videonun detayını al
     api.get(`/video/info?id=${id}&extend=1`).then((res) => setVideo(res?.data));
-    //* 4.adım: idsini bildiğimiz videonun yorumlarını al
     api.get(`/comments?id=${id}`).then((res) => setComments(res?.data));
   }, []);
 
