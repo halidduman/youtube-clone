@@ -2,22 +2,22 @@
 
 <br>
 <div align="center">
-  <img src="pub" alt="Proje Görseli" width="300">
+  <img src="/public/youtube-logo-large.svg" alt="Proje Görseli" width="300">
 </div>
 <br><br>
 
 Bu proje, **YouTube API** kullanılarak oluşturulmuş bir YouTube klonudur. React ile geliştirdiğim bu projede kullanıcılar farklı kategorilerde videolar seçebilir, videoları izleyebilir, kanalların açıklamalarını ve video yorumlarını görüntüleyebilir.
 
 <div align="center">
-  <img src="src/assets/gif-1.gif" alt="Proje Görseli" width="500">
+  <img src="/public/gif-1.gif" alt="Proje Görseli" width="500">
 </div>
 <br><br>
 <div align="center">
-  <img src="src/assets/gif-2.gif" alt="Proje Görseli" width="500">
+  <img src="/public/gif-2.gif" alt="Proje Görseli" width="500">
 </div>
 <br><br>
 <div align="center">
-  <img src="src/assets/gif-3.gif" alt="Proje Görseli" width="500">
+  <img src="/public/gif-3.gif" alt="Proje Görseli" width="500">
 </div>
 
 ## Özellikler
@@ -39,21 +39,21 @@ Bu proje, **YouTube API** kullanılarak oluşturulmuş bir YouTube klonudur. Rea
 - **Yorumlar**: Videoların yorumlarını görüntüleme imkanı.
 
 <div align="center">
-  <img src="src/assets/image-1.png" alt="Proje Görseli" width="500">
+  <img src="/public/1.png" alt="Proje Görseli" width="500">
   <br><br>
-  <img src="src/assets/image-2.png" alt="Proje Görseli" width="500">
+  <img src="/public/2.png" alt="Proje Görseli" width="500">
 </div>
 <br><br>
 <div align="center">
-  <img src="src/assets/image-3.png" alt="Proje Görseli" width="500">
+  <img src="/public/3.png" alt="Proje Görseli" width="500">
   <br><br>
-  <img src="src/assets/image-4.png" alt="Proje Görseli" width="500">
+  <img src="/public/4.png" alt="Proje Görseli" width="500">
 </div>
 <br><br>
 <div align="center">
-  <img src="src/assets/image-5.png" alt="Proje Görseli" width="500">
+  <img src="/public/5.png" alt="Proje Görseli" width="500">
   <br><br>
-  <img src="src/assets/image-6.png" alt="Proje Görseli" width="500">
+  <img src="/public/6.png" alt="Proje Görseli" width="500">
 </div>
 
 ## Kullanılan Teknolojiler
