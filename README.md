@@ -80,8 +80,8 @@ Bu proje, **YouTube API** kullanılarak oluşturulmuş bir YouTube klonudur. Rea
 
 ## Renk Paleti
 
-<div align="center">
-  <div style="display: inline-block; width: 30px; height: 30px; background-color: #FF0000; border-radius: 50%; margin: 5px;"></div>
-  <div style="display: inline-block; width: 30px; height: 30px; background-color: #282828; border-radius: 50%; margin: 5px;"></div>
-  <div style="display: inline-block; width: 30px; height: 30px; background-color: #FFFFFF; border-radius: 50%; margin: 5px;"></div>
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="https://via.placeholder.com/30/FF0000/FFFFFF?text=+" alt="Red" title="Red">
+  <img src="https://via.placeholder.com/30/282828/FFFFFF?text=+" alt="Dark Gray" title="Dark Gray">
+  <img src="https://via.placeholder.com/30/FFFFFF/000000?text=+" alt="White" title="White">
 </div>
