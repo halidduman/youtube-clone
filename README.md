@@ -69,7 +69,7 @@ Bu proje, **YouTube API** kullanılarak oluşturulmuş bir YouTube klonudur. Rea
 <br><br>
 
 <div align="center">
-  <img src="src/assets/banner.png" alt="Proje Görseli" width="500">
+  <img src="public/banner.png" alt="Proje Görseli" width="500">
 </div>
 <br>
 <div align="center">
