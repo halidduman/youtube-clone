@@ -1,4 +1,4 @@
-# YOUTUBE CLONE
+# YouTube Clone
 
 <br>
 <div align="center">
@@ -61,10 +61,10 @@ Bu proje, **YouTube API** kullanılarak oluşturulmuş bir YouTube klonudur. Rea
 - **React**: Arayüz bileşenleri oluşturmak için.
 - **Tailwind CSS**: Tasarım ve düzenlemeler için.
 - **React Icons**: İkonlar için.
-- **React Player**: Video oynatma bileşenleri için.
+- **React Player**: Video oynatıcısı için.
 - **React Router Dom**: Sayfa geçişleri sağlamak için.
 - **Axios**: API çağrıları için.
-- **Millify**: Büyük sayıları insan tarafından okunabilir hale getirmek için.
+- **Millify**: Sayıları yuvarlamak için.
 
 <br><br>
 
